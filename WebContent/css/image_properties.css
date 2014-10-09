@@ -1,0 +1,346 @@
+.small {
+
+	position: absolute;
+   -webkit-column-count: 3;
+   -moz-column-count:    3;
+   column-count:         3;
+    max-width: 100%;
+    max-height: 100%;
+	padding: 2em;
+}
+
+/* resize images */
+.small img {
+    width: 100%;
+    height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media (max-width: 400px) {
+  .small {
+   padding-left: 4em;
+   padding-right: auto;
+  }
+}
+
+@media (max-width: 350px) {
+  .small {
+   padding-left: 3em;
+   padding-right: auto;
+  }
+}
+
+@media (max-width: 800px) {
+  .small {
+   padding-left: 4em;
+   padding-right: auto;
+  }
+}
+
+.arena_logo {
+    max-width: 200px;
+    max-height: 200px;
+    display: block;	
+	padding: 1em;
+}
+
+/* resize images */
+.arena_logo img {
+    width: 100%;
+    height: auto;
+
+}
+
+.copyright {
+	position: absolute;
+    max-width: 10%;
+    max-height: 10%;
+    display: block;	
+	float: bottom;
+}
+
+/* resize images */
+.copyright img {
+
+    width: 100%;
+    height: auto;
+
+}
+
+#footer_cr {
+
+	
+	max-width: 200px;
+/* 	margin-top: 30%; */
+	bottom: 1px;
+	float:right;
+	padding: 1em;
+}
+
+@media (max-width: 1020px) {
+
+#footer_cr {
+
+	/* max-width: 100%; */
+/* 	margin-top: 30%; */
+	bottom: 1px;
+	padding-left: 1em;
+}
+	
+}
+
+@media (max-width: 800px) {
+
+#footer_cr {
+
+	
+	/* max-width: 100%; */
+/* 	margin-top: 30%; */
+	bottom: 1px;
+	/* padding-left: 1em; */
+}
+	
+}
+
+@media (max-width: 400px) {
+
+#footer_cr {
+
+	
+	/* max-width: 100%; */
+/* 	margin-top: 30%; */
+	bottom: 1px;
+	/* padding-left: 1em; */
+}
+	
+}
+
+@media (max-height: 500px) {
+
+#footer_cr {
+
+	
+	/* max-width: 100%; */
+/* 	margin-top: 30%; */
+	bottom: 1px;
+	padding-bottom: 2em;
+}
+	
+}
+
+.sidebar_menu {
+    max-width: 50px;
+    max-height: 50px;
+ 	/* overflow: auto; */
+/* 	margin: auto; */
+	position: relative;
+
+	
+}
+
+/* resize images */
+.sidebar_menu img {
+    width: 100%;
+    height: auto;
+}
+
+.moa_arena {
+	position: relative;
+    max-width: 500px;
+    max-height: 150px;
+   /*  display: block; */
+   padding-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+	/* margin-top: -3%; */
+	z-index: 10;
+}
+
+/* resize images */
+.moa_arena img {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 400px) {
+  .moa_arena {
+   padding-left: 4em;
+   padding-right: auto;
+  }
+}
+
+@media (max-width: 350px) {
+  .moa_arena {
+   padding-left: 3em;
+   padding-right: auto;
+  }
+}
+
+@media (max-width: 800px) {
+  .moa_arena {
+   padding-left: 4em;
+   padding-right: auto;
+  }
+}
+
+.moa_arena_log {
+	position: relative;
+    max-width: 500px;
+    max-height: 150px;
+   /*  display: block; */
+   padding-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+	/* margin-top: -3%; */
+	z-index: 10;
+}
+
+/* resize images */
+.moa_arena_log img {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 400px) {
+  .moa_arena_log {
+   padding-left: 4em;
+   padding-right: auto;
+  }
+}
+
+@media (max-width: 350px) {
+  .moa_arena_log {
+   padding-left: 2em;
+   padding-right: auto;
+  }
+}
+
+@media (max-width: 800px) {
+  .moa_arena_log {
+   padding-left: 1em;
+   padding-right: auto;
+  }
+}
+
+@media (max-width: 900px) {
+
+	
+
+}
+
+
+.print {
+	position: relative;
+	max-width: 30%;
+/* 	margin-top: 20%; */
+	float:right;
+
+}
+
+/* resize images */
+.print img {
+	
+	width: 100%;
+	
+}
+
+@media (max-width: 900px) {
+  .print {
+	
+	float:right;
+	max-width: 40%;
+  }
+}
+
+@media (max-width: 400px) {
+  .print {
+	
+	float:right;
+	max-width: 25%;
+  }
+}
+
+
+.home {
+
+	position: relative;
+	max-width: 8%;
+	margin-left: 1em;
+	float:right;
+
+	
+	}
+
+/* resize images */
+.home img {
+
+width: 100%;
+
+}
+
+@media (max-width: 900px) {
+  .home {
+	max-width: 10%;
+  }
+}
+
+@media (max-width: 400px) {
+  .home {
+	max-width: 8%;
+  }
+
+}
+
+.btn{
+	background-color: #2c4968;
+}
+
+.btn-default{
+	color: #ccdef1;
+}
+
+.login {
+	margin-top: 10%;
+	margin-bottom: auto;
+	
+}
+
+.form-signin {
+  max-width: 380px;
+/*   padding: 15px 35px 45px; */
+  margin: 0 auto;
+  position: relative;
+
+  .form-signin-heading,
+	.checkbox {
+	  margin-bottom: 30px;
+	}
+
+	.checkbox {
+	  font-weight: normal;
+	}
+
+	.form-control {
+	  position: relative;
+	  font-size: 16px;
+	  height: auto;
+	  padding: 10px;
+		@include box-sizing(border-box);
+
+		&:focus {
+		  z-index: 2;
+		}
+	}
+
+	input[type="text"] {
+	  margin-bottom: -1px;
+	  border-bottom-left-radius: 0;
+	  border-bottom-right-radius: 0;
+	}
+
+	input[type="password"] {
+	  margin-bottom: 20px;
+	  border-top-left-radius: 0;
+	  border-top-right-radius: 0;
+	}

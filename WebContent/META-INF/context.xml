@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Context>
+
+  <Resource name="jdbc/arenadb" auth="Container"
+            type="javax.sql.DataSource" username="user01" password="p@ssw0rd1234"
+            driverClassName="com.mysql.jdbc.Driver" 
+            url="jdbc:mysql://10.141.18.21:3306/arenadb"
+            maxActive="2000" maxidle="5000"
+            />
+</Context>

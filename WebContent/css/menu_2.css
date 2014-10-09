@@ -1,0 +1,130 @@
+html{
+    width: 100%;
+}
+
+table{
+    width: 80%;
+	height: 50%;
+    display:Table;
+}
+
+td{
+    display:table-cell;
+	width: 10%;
+    height: 10%;
+	text-align: center;
+    overflow: hidden;
+    vertical-align: baseline;
+    
+}
+
+img{
+    width: 60%;  
+    float:right;
+}
+
+@media only screen and (max-width: 1100px) {
+html{
+    width: 100%;
+}
+
+table{
+    width: 80%;
+	height: 50%;
+    display:Table;
+}
+
+td{
+    display:table-cell;
+	width: 30%;
+    height: 30%;
+	text-align: center;
+    overflow: hidden;
+    vertical-align: baseline;
+    
+}
+
+img{
+    width: 60%;  
+    float:right;
+}
+}
+
+@media only screen and (max-width: 800px) {
+html{
+    width: 100%;
+}
+
+table{
+    width: 65%;
+    display:Table;
+}
+
+td{
+    display:table-cell;
+	width: 20%;
+    height:20%;
+	text-align: center;
+    overflow: hidden;
+    vertical-align: baseline;
+    
+}
+
+img{
+    width: 100%;  
+    float:left;
+}
+}
+ 
+@media only screen and (max-width: 640px) {
+html{
+    width: 100%;
+}
+
+table{
+    width: 80%;
+    display:Table;
+}
+
+td{
+    display:table-cell;
+	width: 20%;
+    height:20%;
+	text-align: center;
+    overflow: hidden;
+    vertical-align: baseline;
+    
+}
+
+img{
+    width: 100%;  
+    float:left;
+}
+}
+
+@media only screen and (max-height: 400px) {
+html{
+    width: 100%;
+}
+
+table{
+    width: 50%;
+
+    display:Table;
+}
+
+td{
+    display:table-cell;
+	width: 20%;
+    height:20%;
+	text-align: center;
+    overflow: hidden;
+    vertical-align: baseline;
+    
+}
+
+img{
+    width: 100%;  
+    float:left;
+}
+}
